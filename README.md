@@ -4,6 +4,21 @@
 
 ## 界面预览
 
+### 第十一回日语卡拉OK大会
+
+2026 年 11 月 21 日活动使用的桌面首页与手机节目单。截图摄于投票截止后，首页插画由 Harukawa Shizuku 绘制。
+
+<table>
+  <tr><th>桌面 · 活动首页</th><th>手机 · 节目单</th></tr>
+  <tr>
+    <td width="73%" valign="top"><a href="docs/screenshots/edition-11-home.png"><img src="docs/screenshots/edition-11-home.png" alt="第十一回日卡桌面首页，左侧是活动主视觉，右侧为封票状态和节目单入口"></a></td>
+    <td width="27%" valign="top"><a href="docs/screenshots/edition-11-programme.png"><img src="docs/screenshots/edition-11-programme.png" alt="第十一回日卡手机节目单，按演出段落显示曲目封面和顺序"></a></td>
+  </tr>
+</table>
+
+<details>
+<summary>查看部署包自带的 classic 与 amber 示例主题</summary>
+
 两张截图使用同一份虚构节目单。左图展示 `classic` 主题的「想投」标记，右图展示 `amber` 主题的投票与保存状态。
 
 <table>
@@ -16,6 +31,8 @@
     <td width="27%" valign="top"><a href="docs/screenshots/ballot-amber-mobile.png"><img src="docs/screenshots/ballot-amber-mobile.png" alt="琥珀主题的三类投票选择、票额和保存状态"></a></td>
   </tr>
 </table>
+
+</details>
 
 ## 在本机构建
 

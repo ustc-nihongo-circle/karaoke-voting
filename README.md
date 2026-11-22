@@ -2,6 +2,21 @@
 
 本项目由日语协会往届 `ustcjlc-karaoke-2025` 工程和第十一回日语卡拉OK大会现场版整理而来，可用于新活动。Vue 提供节目单、想投清单和投票页，Cloudflare Worker 通过 Hyperdrive 连接 PostgreSQL。附带虚构节目单。观众编号只校验格式，投票窗口内以同一编号最后一次保存的选择计票。工作人员使用独立账号登录。
 
+## 界面预览
+
+两张截图使用同一份虚构节目单。左图展示 `classic` 主题的「想投」标记，右图展示 `amber` 主题的投票与保存状态。
+
+<table>
+  <tr>
+    <th>桌面 · 节目单</th>
+    <th>手机 · 现场投票</th>
+  </tr>
+  <tr>
+    <td width="73%" valign="top"><a href="docs/screenshots/programme-classic.png"><img src="docs/screenshots/programme-classic.png" alt="经典主题的节目单、演出分段和想投标记"></a></td>
+    <td width="27%" valign="top"><a href="docs/screenshots/ballot-amber-mobile.png"><img src="docs/screenshots/ballot-amber-mobile.png" alt="琥珀主题的三类投票选择、票额和保存状态"></a></td>
+  </tr>
+</table>
+
 ## 在本机构建
 
 使用 Node.js 22.12 或更高版本，在本目录运行以下命令。

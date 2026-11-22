@@ -1,0 +1,11 @@
+{
+  "key": "karaoke-demo",
+  "name": "日语卡拉OK大会",
+  "brand": "日卡",
+  "edition": "示例场",
+  "date": "活动日",
+  "venue": "演出会场",
+  "schedule": "全部正场节目结束后开放投票",
+  "organizer": "活动组委会",
+  "shortlistExpiresAt": null
+}

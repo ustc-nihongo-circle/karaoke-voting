@@ -1,0 +1,25 @@
+.audience:global(.karaoke-audience) {
+  --ink: #211b19;
+  --text: #fff7ec;
+  --muted: #deccba;
+  --line: #dfc19855;
+  --ice: #ffc981;
+  --cyan: #ffdb9d;
+  --display: Georgia, "Songti SC", "SimSun", serif;
+  background: radial-gradient(ellipse at 65% 0%, #583b2d, #211b19 65%);
+}
+.audience :global(#scene-mesh) { display: none; }
+.audience :global(.site), .audience :global(.home-content) { background: #251e1b; }
+.audience :global(.hero) {
+  background: radial-gradient(ellipse at 75% 10%, #a0663d, transparent 55%),
+    linear-gradient(145deg, #63402c, #33231e);
+}
+.audience :global(.hero::after) { background: linear-gradient(0deg, #241914, transparent 70%); }
+.audience :global(.page-art), .audience :global(.section-band), .audience :global(.home-panel) {
+  background: linear-gradient(120deg, #4a332b, #2c2320);
+}
+.audience :global(.entries), .audience :global(.pick), .audience :global(dialog) { background: #322824; }
+.audience :global(.site-header), .audience :global(.programme-nav), .audience :global(.halves),
+.audience :global(.ballot-dock) { background: #2a211e; }
+.audience :global(.entry-card:has(.pick[aria-pressed=true])) { background: #503c2f; }
+.audience :global(.pick[aria-pressed=true]) { background: var(--ice); color: var(--ink); }

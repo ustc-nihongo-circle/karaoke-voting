@@ -1,0 +1,27 @@
+{
+  "name": "karaoke-voting",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "test": "node --test server/award-results.test.mjs server/requests.test.mjs",
+    "build": "vite build",
+    "check:worker": "npm run build && wrangler deploy --dry-run --config wrangler.example.jsonc",
+    "dev": "npm run build && wrangler dev --local --local-protocol https --config wrangler.jsonc",
+    "deploy": "npm run build && wrangler deploy --config wrangler.jsonc"
+  },
+  "dependencies": {
+    "pg": "8.23.1",
+    "vue": "3.5.46",
+    "vue-router": "4.6.3",
+    "vue3-cookies": "1.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.1",
+    "vite": "7.3.8",
+    "wrangler": "4.166.0"
+  }
+}

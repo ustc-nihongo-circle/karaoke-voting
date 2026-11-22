@@ -1,0 +1,12 @@
+.audience {
+  --mesh-start: #222b41;
+  --mesh-mid: #414256;
+  --mesh-end-mid: #39344d;
+  --mesh-end: #1a2032;
+  --mesh-light: rgba(165, 208, 223, .26);
+  --mesh-light-end: rgba(144, 183, 222, 0);
+  --mesh-tile-light: rgba(171, 160, 214, .07);
+  --mesh-tile: rgba(122, 166, 205, .023);
+  --mesh-halo: rgba(154, 200, 231, .032);
+  --mesh-line: rgba(180, 215, 242, .16);
+}

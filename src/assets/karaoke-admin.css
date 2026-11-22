@@ -1,0 +1,122 @@
+.staff-shell .site { background: #141826; }
+.staff-shell .ops-main { padding: 0 var(--gutter) clamp(2rem,6vw,4rem); }
+.staff-shell .ops-heading, .staff-shell .ops-toolbar, .staff-shell .ops-channel,
+.staff-shell .ops-account, .staff-shell .ops-refresh, .staff-shell .ops-channel-line {
+  display: flex; align-items: center; gap: .6rem 1rem; flex-wrap: wrap;
+}
+.staff-shell .ops-heading, .staff-shell .ops-toolbar, .staff-shell .ops-channel { justify-content: space-between; }
+.staff-shell .ops-heading { padding-block: clamp(1.2rem,4vw,2.5rem) 1.3rem; }
+.staff-shell h1, .staff-shell h2, .staff-shell h3, .staff-shell p, .staff-shell dl, .staff-shell dd { margin: 0; }
+.staff-shell h1 { font: 740 clamp(1.8rem,4vw,2.6rem)/1.18 var(--display); letter-spacing: -.03em; }
+.staff-shell h2 { font: 700 clamp(1.15rem,2.4vw,1.4rem)/1.3 var(--display); }
+.staff-shell h3 { font-size: 1rem; }
+.staff-shell .ops-account { gap: .4rem 1rem; color: var(--muted); font-size: .84rem; }
+.staff-shell .ops-account > span { font: 650 .9rem var(--display); color: var(--text); overflow-wrap: anywhere; }
+.staff-shell .ops-account small { margin-left: .45rem; font-size: .72rem; color: var(--ice); }
+.staff-shell .ops-account a, .staff-shell .ops-link, .staff-shell .ops-back {
+  display: inline-flex; align-items: center; min-height: 44px; color: var(--ice); font-size: .83rem;
+  text-decoration: underline; text-underline-offset: .26em;
+}
+.staff-shell .ops-link { padding: 0; border: 0; background: none; }
+.staff-shell .ops-channel {
+  padding: 1.05rem clamp(.95rem,2.7vw,1.7rem); border-left: 3px solid var(--ice);
+  background: linear-gradient(118deg,#32374c 0%,#232c40 67%,#29364a 67%,#20273a 100%);
+}
+.staff-shell .ops-channel h2 { margin-bottom: .32rem; font-size: .8rem; color: #c8cfde; font-weight: 550; }
+.staff-shell .ops-phase { display: inline-flex; align-items: center; gap: .55rem; font: 730 1.32rem var(--display); }
+.staff-shell .ops-phase::before { content: ''; width: .55rem; height: .55rem; border-radius: 50%; background: #afbbcc; }
+.staff-shell .ops-phase[data-phase=open]::before { background: var(--cyan); }
+.staff-shell .ops-detail { color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
+.staff-shell .ops-btn {
+  min-height: 44px; padding: .4rem .85rem; border: 1px solid #647188; border-radius: 3px;
+  line-height: 1.28; font-family: inherit; font-size: .85rem; font-weight: 650;
+  background: #252d40; color: var(--text);
+}
+.staff-shell .ops-btn:hover:not(:disabled) { border-color: var(--ice); background: #303b51; }
+.staff-shell .ops-btn.ops-primary { border-color: var(--cyan); color: #102130; background: var(--cyan); }
+.staff-shell .ops-btn.ops-primary:hover:not(:disabled) { background: #a5edf9; }
+.staff-shell .ops-btn.ops-stop { color: #ffdad3; border-color: #b27975; background: #3c2933; }
+.staff-shell .ops-btn:disabled, .staff-shell .ops-btn.ops-primary:disabled { background: #262c39; color: #abb3be; border-color: #414959; }
+.staff-shell .ops-note, .staff-shell .ops-alert, .staff-shell .ops-feedback { margin-block: .75rem; font-size: .89rem; }
+.staff-shell .ops-alert { padding: .7rem .9rem; color: #ffe0db; border-left: 3px solid #f1a99a; background: #382931; }
+.staff-shell .ops-alert .ops-btn { margin-left: .5rem; }
+.staff-shell .ops-feedback { color: var(--ice); }
+.staff-shell .ops-toolbar { padding-block: 1.4rem .8rem; }
+.staff-shell .ops-toolbar h2 + p { margin-top: .2rem; }
+.staff-shell .ops-table { width: 100%; border-spacing: 0; table-layout: fixed; font-variant-numeric: tabular-nums; }
+.staff-shell .ops-table th, .staff-shell .ops-table td { padding: .54rem .65rem; border-bottom: 1px solid var(--line); }
+.staff-shell .ops-table thead th {
+  position: sticky; top: 0; z-index: 1; background: #293043; color: #d6ddea; font: 600 .8rem/1.25 var(--display);
+}
+.staff-shell .ops-table tbody tr { background: #1b2030; }
+.staff-shell .ops-table tbody tr:hover { background: #242c40; }
+.staff-shell .ops-table th.ops-name { text-align: left; }
+.staff-shell .ops-table .ops-rank { width: 3.3rem; text-align: center; color: #b7c0d1; font-size: .82rem; }
+.staff-shell .ops-table .ops-num { text-align: right; width: clamp(4.2rem,8vw,7.5rem); font-family: var(--display); }
+.staff-shell .ops-table thead .ops-num { padding: 0; }
+.staff-shell .ops-num button { min-height: 44px; width: 100%; text-align: right; padding: 0 .65rem; border: 0; color: inherit; background: none; font: inherit; white-space: nowrap; }
+.staff-shell .ops-num button:hover { background: #323c51; }
+.staff-shell .ops-table th[aria-sort] { box-shadow: inset 0 -2px var(--ice); color: var(--ice); }
+.staff-shell .ops-sorted { background: #b4e8fc09; color: var(--ice); font-weight: 700; }
+.staff-shell .ops-performer { display: flex; align-items: center; gap: .7rem; }
+.staff-shell .ops-performer img { flex: none; display: block; object-fit: contain; background: #101321; }
+.staff-shell .ops-performer div { min-width: 0; overflow-wrap: anywhere; }
+.staff-shell .ops-performer strong { display: block; font-size: .96rem; line-height: 1.3; }
+.staff-shell .ops-performer small { display: block; margin-top: .12rem; color: var(--muted); font-size: .75rem; font-weight: normal; line-height: 1.35; }
+.staff-shell .ops-awards { margin-top: 1rem; padding: .3rem 1rem 1rem; border: 1px solid var(--line); background: #1c2233; }
+.staff-shell .ops-awards .ops-toolbar { padding-top: .7rem; }
+.staff-shell .ops-results > div { display: grid; grid-template-columns: minmax(7rem,10rem) 1fr; gap: .6rem; padding-block: .4rem; border-top: 1px solid var(--line); }
+.staff-shell .ops-results dt { color: var(--ice); font-size: .85rem; }
+.staff-shell .ops-results dd { font-size: .9rem; overflow-wrap: anywhere; }
+.staff-shell .ops-copy { width: 100%; background: var(--ink); color: var(--text); }
+.staff-shell .ops-draw { margin-top: .65rem; padding: .85rem; background: #2d2b37; }
+.staff-shell .ops-draw p, .staff-shell .ops-awards details { margin-top: .5rem; font-size: .87rem; }
+.staff-shell .ops-draw form > button { display: block; }
+.staff-shell .ops-check { display: inline-flex; align-items: center; gap: .45rem; margin-right: .65rem; min-height: 44px; font-size: .88rem; }
+.staff-shell .ops-check input { width: 1.1rem; height: 1.1rem; margin: 0; accent-color: var(--ice); }
+.staff-shell .ops-staff-list form { border-top: 1px solid var(--line); background: #1d2333; }
+.staff-shell .ops-staff-list fieldset {
+  min-width: 0; min-height: 4.3rem; display: grid; grid-template-columns: minmax(8rem,1.4fr) 1fr 1.25fr 6rem;
+  align-items: center; gap: .4rem; padding: .7rem 1rem; margin: 0; border: 0;
+}
+.staff-shell .ops-staff-account { display: grid; gap: .12rem; overflow-wrap: anywhere; }
+.staff-shell .ops-login {
+  display: grid; grid-template-columns: minmax(0,.85fr) minmax(0,1.15fr); max-width: 48rem; margin: clamp(2rem,10vh,7rem) auto;
+  background: #202639; border: 1px solid var(--line);
+}
+.staff-shell .ops-login-art {
+  background: linear-gradient(0deg,#1a213485,transparent 72%),linear-gradient(130deg,#27324f,#47607b);
+  clip-path: polygon(0 0,100% 0,90% 100%,0 100%);
+}
+.staff-shell .ops-login-body { padding: clamp(1.4rem,4vw,3.1rem); }
+.staff-shell .ops-login-body h1 { font-size: clamp(1.65rem,3.3vw,2.2rem); }
+.staff-shell .ops-form { display: grid; gap: .35rem; margin-top: 1.5rem; }
+.staff-shell .ops-form label { margin-top: .5rem; font-size: .85rem; color: var(--muted); }
+.staff-shell .ops-form input {
+  width: 100%; min-height: 46px; border: 1px solid #727f92; border-radius: 3px;
+  padding: .45rem .65rem; background: #111624; color: var(--text);
+}
+.staff-shell .ops-form .ops-primary { margin-top: 1rem; }
+@media (max-width: 650px) {
+  .staff-shell .ops-heading { padding-block: 1.05rem .8rem; gap: .2rem .8rem; }
+  .staff-shell .ops-account { gap: .7rem; }
+  .staff-shell .ops-refresh { justify-content: flex-end; gap: .4rem; }
+  .staff-shell .ops-refresh .ops-detail { font-size: .7rem; }
+  .staff-shell .ops-table .ops-rank { width: 2.1rem; }
+  .staff-shell .ops-table .ops-num { width: 2.65rem; }
+  .staff-shell .ops-table .ops-num:last-child { width: 3.4rem; }
+  .staff-shell .ops-table th, .staff-shell .ops-table td { padding: .55rem .23rem; }
+  .staff-shell .ops-num button { padding-inline: .18rem; }
+  .staff-shell .ops-table thead th { font-size: .73rem; }
+  .staff-shell .ops-performer img { display: none; }
+  .staff-shell .ops-performer strong { font-size: .86rem; }
+  .staff-shell .ops-performer small { font-size: .7rem; }
+  .staff-shell .ops-staff-list fieldset { grid-template-columns: 1fr 1fr; }
+  .staff-shell .ops-staff-account { grid-column: 1; grid-row: 1; }
+  .staff-shell .ops-staff-list .ops-btn { grid-area: 1 / 2; justify-self: end; }
+  .staff-shell .ops-staff-list .ops-check { grid-row: 2; }
+  .staff-shell .ops-login { grid-template-columns: 1fr; margin: 1.5rem var(--gutter); }
+  .staff-shell .ops-login-art { height: 7rem; background-position: 50% 33%; clip-path: none; }
+}
+
+

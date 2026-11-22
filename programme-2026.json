@@ -1,0 +1,444 @@
+{
+  "sections": [
+    {
+      "half": 1,
+      "side": "A",
+      "title": "第1段",
+      "caption": "节目单",
+      "theme": "现场演出"
+    },
+    {
+      "half": 2,
+      "side": "B",
+      "title": "第2段",
+      "caption": "节目单",
+      "theme": "现场演出"
+    },
+    {
+      "half": 3,
+      "side": "C",
+      "title": "第3段",
+      "caption": "节目单",
+      "theme": "现场演出"
+    }
+  ],
+  "singers": [
+    {
+      "id": 1,
+      "name": "示例组合 1",
+      "songs": [
+        {
+          "id": 1,
+          "number": 1,
+          "name": "示例曲目 1",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "示例组合 2",
+      "songs": [
+        {
+          "id": 2,
+          "number": 2,
+          "name": "示例曲目 2",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "示例组合 3",
+      "songs": [
+        {
+          "id": 3,
+          "number": 3,
+          "name": "示例曲目 3",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "示例组合 4",
+      "songs": [
+        {
+          "id": 4,
+          "number": 4,
+          "name": "示例曲目 4",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "示例组合 6",
+      "songs": [
+        {
+          "id": 6,
+          "number": 5,
+          "name": "示例曲目 5",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "示例组合 7",
+      "songs": [
+        {
+          "id": 7,
+          "number": 6,
+          "name": "示例曲目 6",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "示例组合 8",
+      "songs": [
+        {
+          "id": 8,
+          "number": 7,
+          "name": "示例曲目 7",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "示例组合 9",
+      "songs": [
+        {
+          "id": 9,
+          "number": 8,
+          "name": "示例曲目 8",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "示例组合 10",
+      "songs": [
+        {
+          "id": 10,
+          "number": 9,
+          "name": "示例曲目 9",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "示例组合 11",
+      "songs": [
+        {
+          "id": 11,
+          "number": 10,
+          "name": "示例曲目 10",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "示例组合 12",
+      "songs": [
+        {
+          "id": 12,
+          "number": 11,
+          "name": "示例曲目 11",
+          "half": 1,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "示例组合 13",
+      "songs": [
+        {
+          "id": 13,
+          "number": 12,
+          "name": "示例曲目 12",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "示例组合 14",
+      "songs": [
+        {
+          "id": 14,
+          "number": 13,
+          "name": "示例曲目 13",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "示例组合 15",
+      "songs": [
+        {
+          "id": 15,
+          "number": 14,
+          "name": "示例曲目 14",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "示例组合 16",
+      "songs": [
+        {
+          "id": 16,
+          "number": 15,
+          "name": "示例曲目 15",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "示例组合 17",
+      "songs": [
+        {
+          "id": 17,
+          "number": 16,
+          "name": "示例曲目 16",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "示例组合 18",
+      "songs": [
+        {
+          "id": 18,
+          "number": 17,
+          "name": "示例曲目 17",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "示例组合 19",
+      "songs": [
+        {
+          "id": 19,
+          "number": 18,
+          "name": "示例曲目 18",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "示例组合 20",
+      "songs": [
+        {
+          "id": 20,
+          "number": 19,
+          "name": "示例曲目 19",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "示例组合 21",
+      "songs": [
+        {
+          "id": 21,
+          "number": 20,
+          "name": "示例曲目 20",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "示例组合 22",
+      "songs": [
+        {
+          "id": 22,
+          "number": 21,
+          "name": "示例曲目 21",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "示例组合 23",
+      "songs": [
+        {
+          "id": 23,
+          "number": 22,
+          "name": "示例曲目 22",
+          "half": 2,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "示例组合 24",
+      "songs": [
+        {
+          "id": 24,
+          "number": 23,
+          "name": "示例曲目 23",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "示例组合 25",
+      "songs": [
+        {
+          "id": 25,
+          "number": 24,
+          "name": "示例曲目 24",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "示例组合 26",
+      "songs": [
+        {
+          "id": 26,
+          "number": 25,
+          "name": "示例曲目 25",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "示例组合 27",
+      "songs": [
+        {
+          "id": 27,
+          "number": 26,
+          "name": "示例曲目 26",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "示例组合 28",
+      "songs": [
+        {
+          "id": 28,
+          "number": 27,
+          "name": "示例曲目 27",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "示例组合 29",
+      "songs": [
+        {
+          "id": 29,
+          "number": 28,
+          "name": "示例曲目 28",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "示例组合 30",
+      "songs": [
+        {
+          "id": 30,
+          "number": 29,
+          "name": "示例曲目 29",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "示例组合 31",
+      "songs": [
+        {
+          "id": 31,
+          "number": 30,
+          "name": "示例曲目 30",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "示例组合 32",
+      "songs": [
+        {
+          "id": 32,
+          "number": 31,
+          "name": "示例曲目 31",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "示例组合 33",
+      "songs": [
+        {
+          "id": 33,
+          "number": 32,
+          "name": "示例曲目 32",
+          "half": 3,
+          "cover": null
+        }
+      ]
+    }
+  ],
+  "guests": []
+}
